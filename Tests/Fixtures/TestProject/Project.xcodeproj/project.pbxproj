@@ -34,6 +34,7 @@
 		BF_1EC32E6544284999188A140FB5FC6E67 /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_5CFDEA59B939FA9F3CA4F775B9E6AD2B /* TestProjectUITests.swift */; };
 		BF_230439786C4C6849F488A5FADC6A42A5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_11478908A963CED036DABEF21D85DF01 /* Result.framework */; };
 		BF_2356EAE09301354149D45720369BE7F2 /* StaticLibrary_ObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FR_D0BE69522DB875ADB041E9135E0767CA /* StaticLibrary_ObjC.h */; };
+		BF_2B393D3BEEC607BEC138A026FF863BBD /* foobar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_A3699C190B5FD540758EA59A511861E0 /* foobar.swift */; };
 		BF_30024D558743C8ABC415D87431CDC13C /* SomeFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FR_2F56FD7A1F7782467AC9F315B6133468 /* SomeFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF_3080067722B357BFC053D89CCDBF5397 /* FrameworkFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_261C31660333EF514356EFCBDB368EAB /* FrameworkFile.swift */; };
 		BF_33EA0F8B2ADA2D24A683FCD8D6235B10 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_A957DAE2193BE1E970F452BFEFF3EBF6 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,6 +56,7 @@
 		BF_569CC068CD4B7BCE35E974D7B61566DB /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_A957DAE2193BE1E970F452BFEFF3EBF6 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_59E5DB880E7823E6BC1D62FAF99E5758 /* App_watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FR_30E7940EF436086816B40DAC068BD238 /* App_watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BF_5C6407EDAC3D88B020BCB46724DC1D14 /* FrameworkFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_261C31660333EF514356EFCBDB368EAB /* FrameworkFile.swift */; };
+		BF_61C7489D1EC67ED9D85C6E0758519110 /* CredentialProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_2B66E43BB27683426B166A45CB854F99 /* CredentialProvider.swift */; };
 		BF_65835F9276FF0DB8E27D098367F9D03C /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = VG_C247AA37E9057916EDDC65C7B55E2F38 /* Localizable.stringsdict */; };
 		BF_67219751DE020023F9D6068EDCCDC445 /* SomeXPCService.xpc in CopyFiles */ = {isa = PBXBuildFile; fileRef = FR_4EB4AAACD714C13E5BC894C71B954299 /* SomeXPCService.xpc */; };
 		BF_6AA4D902E371C0F078917EB44F966B16 /* App_watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FR_545DDE4AB557C8FAAD87775CD4271BDF /* App_watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -66,6 +68,7 @@
 		BF_7C9646667C0D479544A2207DEE3E930B /* Headers in Headers */ = {isa = PBXBuildFile; fileRef = FR_3DD4DE355C21662A9169EE41C44F73E3 /* Headers */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_81711FB79375EB743254B809B4E246E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_4DB225C7FF39C16EEFD9A1A5595FCDBC /* AppDelegate.swift */; };
 		BF_8610CB66872BC72C1690EBD8D102FBC0 /* FrameworkFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_261C31660333EF514356EFCBDB368EAB /* FrameworkFile.swift */; };
+		BF_86974961CF020DF7CA24DA85E4DF6580 /* CredentialProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FR_127AE5925ADDBAC78C914EA54BF82EED /* CredentialProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BF_86F2552DA1E230901EC4CB1A40399019 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_CEAE8D9C3F3920D6EADE5455C188EAAE /* Result.framework */; };
 		BF_8765851BF5D99B10C220DDD57B968B10 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FR_11478908A963CED036DABEF21D85DF01 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF_90F0E9253F2768C312B65530931CD55A /* Empty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FR_DBD29CA78CDBBEF69B2C39C6D23BBDA1 /* Empty.h */; };
@@ -113,10 +116,12 @@
 		BF_F6FBB97A7DE0F6D06661A00E3B22E8CF /* Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FR_099E2C49D4A0B799E78B39C47FBEADF7 /* Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF_F7AC9F45ED37FCD5A749FD6F5F4518AF /* Standalone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_82E3C6C060C4487B5177509917C3FAE3 /* Standalone.swift */; };
 		BF_F8D73622DA7CFF30DB9AD17C08C63655 /* Framework2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_1EA1EAB0CB9BD96BC550879E58911B12 /* Framework2.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BF_F9CF59543DD64257316A705BB9B7AEA3 /* foobar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_A3699C190B5FD540758EA59A511861E0 /* foobar.swift */; };
 		BF_F9E44FE6ECBD936A8C762D425DDBA37C /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FR_CEAE8D9C3F3920D6EADE5455C188EAAE /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF_FA28229372AB6236883309181258AF26 /* XPC_Service.m in Sources */ = {isa = PBXBuildFile; fileRef = FR_7F4496C534F2DF8C4FB9A8D52414990B /* XPC_Service.m */; };
 		BF_FA5F3C87A2571E0F39637D118B6C6F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR_B243640A6F73B3F3D33ABD05ABDBC26B /* Assets.xcassets */; };
 		BF_FD13F69A90FB1D5676B97A8C77D710B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FR_F5436E663145426483F206F8A61400BC /* main.m */; };
+		BF_FF371B13BA83EA89557F0442DC7A91D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_782EC8110161D23FC9E99555DBFB3CC6 /* AppDelegate.swift */; };
 		BF_FF7EBDFA4462D2983743C84CE99D9714 /* MoreUnder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_AC5B2FCE520D5306B254D5857E15B6CB /* MoreUnder.swift */; };
 /* End PBXBuildFile section */
 
@@ -162,6 +167,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = NT_BEB0891E36797FE2214A0A9D516D408D;
 			remoteInfo = App_iOS;
+		};
+		CIP_538C8AE73B5D53B9B47A059D7BFDADF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P_88EC38DC1E39C9039D2FA49EDC2FA124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = NT_DF709E9AB95C79AF638812C451F55FFF;
+			remoteInfo = CredentialProvider;
 		};
 		CIP_5E9F76628F77E820EB9AA60A282D8691 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -351,6 +363,17 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFBP_C952B722F3E9867EA94C1DA558E7686A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF_86974961CF020DF7CA24DA85E4DF6580 /* CredentialProvider.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFBP_CB2355266C8BAA9C97863011F3DE05A2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,6 +429,7 @@
 		FR_0A30B76CD8B0A84B8C488FABC16C4682 /* Framework2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_11478908A963CED036DABEF21D85DF01 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 		FR_11E95FCD1DEB0C8A01A053518C1DAA8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FR_127AE5925ADDBAC78C914EA54BF82EED /* CredentialProvider.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = CredentialProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_16B791CFA2095097A17CC216977DF6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FR_1B0304C0E4DC73614BAA550E4A80D41C /* ResourceFolder */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ResourceFolder; path = Resources/ResourceFolder; sourceTree = SOURCE_ROOT; };
 		FR_1C00E09FA3D2CDB962FE8D5584853E0D /* StaticLibrary_ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = StaticLibrary_ObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -417,6 +441,7 @@
 		FR_261C31660333EF514356EFCBDB368EAB /* FrameworkFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkFile.swift; sourceTree = "<group>"; };
 		FR_2649A01C17A7301DD72EA826604ED8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		FR_291D6D09ACADC420638E83BEE89DFFEB /* MyBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MyBundle.bundle; sourceTree = "<group>"; };
+		FR_2B66E43BB27683426B166A45CB854F99 /* CredentialProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProvider.swift; sourceTree = "<group>"; };
 		FR_2F56FD7A1F7782467AC9F315B6133468 /* SomeFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SomeFramework.framework; path = Vendor/SomeFramework.framework; sourceTree = "<group>"; };
 		FR_30E7940EF436086816B40DAC068BD238 /* App_watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_3305E7E3B08D04C667D02BD29D3A45A9 /* iMessageApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = iMessageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -446,12 +471,14 @@
 		FR_6A3D8067EBC18CB321826EB21FEBD094 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		FR_752FB5DFFBC490CFB9742549A0C48527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FR_7532DD7B78451A5040048474AC4FBCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FR_782EC8110161D23FC9E99555DBFB3CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FR_7C782E8FBF41DE8BB1E3789DF2C8C1F7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		FR_7C8280C3C5E1D43BBB12A5F0156A8305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		FR_7F4496C534F2DF8C4FB9A8D52414990B /* XPC_Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPC_Service.m; sourceTree = "<group>"; };
 		FR_81A08F81FED7C42DC346B9611ECD21AA /* XPC_ServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_ServiceProtocol.h; sourceTree = "<group>"; };
 		FR_82E3C6C060C4487B5177509917C3FAE3 /* Standalone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standalone.swift; sourceTree = "<group>"; };
 		FR_89162821C7F86126DC7F165E93E0DD23 /* App_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = App_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_8A1B65CED0BEC394BC58E65DDDD9C851 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
 		FR_8B770F475242D91FC20289A3B35CD165 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 		FR_96127F4D9D804B89024AB846F0961621 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		FR_98BB4C8D33EB0E666C136ACD08B21EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -459,6 +486,7 @@
 		FR_9B4B00A3CDADD50167B2393562AEBAB2 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		FR_A0867B127ACF3ED382EB2FD5133D3EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FR_A0DA89632C14F8DF99F15196E6EBB7D5 /* Framework2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_A3699C190B5FD540758EA59A511861E0 /* foobar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foobar.swift; sourceTree = "<group>"; };
 		FR_A51DE87AC269BC36016F9CAC32B4ECB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LocalizedStoryboard.storyboard; sourceTree = "<group>"; };
 		FR_A55A35F549FD72775C37ED05342812AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FR_A957DAE2193BE1E970F452BFEFF3EBF6 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
@@ -493,6 +521,7 @@
 		FR_F5353B71B99044C8C37D7601A8107195 /* base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = base.xcconfig; sourceTree = "<group>"; };
 		FR_F5436E663145426483F206F8A61400BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FR_F861CF6DF133AAD164CBE6DF2C7CEBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FR_FE25AB13E43E99CDC4B785EE6402A422 /* Zapp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Zapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -607,6 +636,15 @@
 			path = UnderFileGroup;
 			sourceTree = "<group>";
 		};
+		G_2C5DFBD98FA57CF192A471913A3E692E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FR_A3699C190B5FD540758EA59A511861E0 /* foobar.swift */,
+			);
+			name = Shared;
+			path = Zapp/Shared;
+			sourceTree = "<group>";
+		};
 		G_322C327C1DB8AE7E0B99EF59318DFE22 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -671,6 +709,17 @@
 				FR_2F56FD7A1F7782467AC9F315B6133468 /* SomeFramework.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		G_5C4D8E8AC197C52B97658A06E1423E0A /* Zapp */ = {
+			isa = PBXGroup;
+			children = (
+				G_2C5DFBD98FA57CF192A471913A3E692E /* Shared */,
+				FR_8A1B65CED0BEC394BC58E65DDDD9C851 /* App.entitlements */,
+				FR_782EC8110161D23FC9E99555DBFB3CC6 /* AppDelegate.swift */,
+				FR_2B66E43BB27683426B166A45CB854F99 /* CredentialProvider.swift */,
+			);
+			path = Zapp;
 			sourceTree = "<group>";
 		};
 		G_68375B6CA3E19FBBA0246B55B60849C0 /* App_macOS */ = {
@@ -777,6 +826,7 @@
 				FR_640ADF15D2B92FDC35556B2E0934C21C /* App_macOS.app */,
 				FR_545DDE4AB557C8FAAD87775CD4271BDF /* App_watchOS Extension.appex */,
 				FR_30E7940EF436086816B40DAC068BD238 /* App_watchOS.app */,
+				FR_127AE5925ADDBAC78C914EA54BF82EED /* CredentialProvider.appex */,
 				FR_EFD283107EDF836BF0D9F4EB3F9A0016 /* Framework.framework */,
 				FR_099E2C49D4A0B799E78B39C47FBEADF7 /* Framework.framework */,
 				FR_D5FDE9E6362055E854CE1D3980716A4C /* Framework.framework */,
@@ -793,6 +843,7 @@
 				FR_ABEBA07AEF9FB6D7F5B6D94FD76FF330 /* StaticLibrary_ObjC.a */,
 				FR_426E58636FD3B81A8F45788D3E65BC50 /* StaticLibrary_Swift.a */,
 				FR_1FA381C639CE4923ED6845790A5DF9D2 /* XPC Service.xpc */,
+				FR_FE25AB13E43E99CDC4B785EE6402A422 /* Zapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -813,11 +864,13 @@
 				G_DFE333D63D37FEA4C705A105F9FE0C2A /* iMessage */,
 				G_415E92CCC7C77CD8BB161FA75E8B66EF /* iMessage MessagesExtension */,
 				G_322C327C1DB8AE7E0B99EF59318DFE22 /* Resources */,
+				G_2C5DFBD98FA57CF192A471913A3E692E /* Shared */,
 				G_D0428A559D8B50225BCD0A3640D8B431 /* StandaloneFiles */,
 				G_4A1045347B09A484656D26436E35FDCC /* StaticLibrary_ObjC */,
 				G_CC2410394CB552EF47011133E3A148F5 /* StaticLibrary_Swift */,
 				G_EEC8BB7E2370237E3F5D64AA1BD42CC9 /* Vendor */,
 				G_23236546763854F4301D7847EBA0A2BF /* XPC Service */,
+				G_5C4D8E8AC197C52B97658A06E1423E0A /* Zapp */,
 				FR_3B4065B548BFD8CFB3D1153F7106DDA3 /* Folder */,
 				FR_3DD4DE355C21662A9169EE41C44F73E3 /* Headers */,
 				FR_5E4B4E53251DE2294715A48CC249EBFD /* Mintfile */,
@@ -967,8 +1020,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CL_3BB54CFB2F2EFE7302C0B0709BD0AE04 /* Build configuration list for PBXNativeTarget "StaticLibrary_ObjC_macOS" */;
 			buildPhases = (
-				CFBP_712E86A86BBF89DB5B5F3874B24B8996 /* CopyFiles */,
 				SBP_52AE5DCFB4487297D6889C7F014AD281 /* Sources */,
+				CFBP_712E86A86BBF89DB5B5F3874B24B8996 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1031,8 +1084,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CL_2E30D27084B352548CCAA3500158519B /* Build configuration list for PBXNativeTarget "StaticLibrary_ObjC_watchOS" */;
 			buildPhases = (
-				CFBP_4DFB7882C9F8BAB250BB0A6B9457B4CC /* CopyFiles */,
 				SBP_924258C7A9F27B13508604CAF625E0D3 /* Sources */,
+				CFBP_4DFB7882C9F8BAB250BB0A6B9457B4CC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1049,8 +1102,8 @@
 			buildPhases = (
 				SBP_ED63FCA00BD617EFF125ECDF9D24FAD8 /* Sources */,
 				RBP_5623703FDC4F6DF4679D8BAF27518F2F /* Resources */,
-				SSBP_7F147E7ED45BAAE2186975B7FF9EB08A /* Carthage */,
 				CFBP_469B033759EACBB99ECBF1008677C590 /* Embed App Extensions */,
+				SSBP_7F147E7ED45BAAE2186975B7FF9EB08A /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -1133,8 +1186,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CL_F6ECF2D45799DBBB48DE9AE80AC280AA /* Build configuration list for PBXNativeTarget "StaticLibrary_ObjC_iOS" */;
 			buildPhases = (
-				CFBP_0B6C520DAC94DDCE678BE15C53528F25 /* CopyFiles */,
 				SBP_D6209A702C851D0CFD1CC2B225986D45 /* Sources */,
+				CFBP_0B6C520DAC94DDCE678BE15C53528F25 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1197,6 +1250,23 @@
 			productName = Framework2_macOS;
 			productReference = FR_0A30B76CD8B0A84B8C488FABC16C4682 /* Framework2.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		NT_93FE606170A41972671B10C3316BBBB7 /* Zapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL_7045110680DDC043ABB906CF968FB345 /* Build configuration list for PBXNativeTarget "Zapp" */;
+			buildPhases = (
+				SBP_91FCAC1C48768C1E910A8737F36F4ABC /* Sources */,
+				CFBP_C952B722F3E9867EA94C1DA558E7686A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				TD_D739CAFD99B030D76EC36458C82BA163 /* PBXTargetDependency */,
+			);
+			name = Zapp;
+			productName = Zapp;
+			productReference = FR_FE25AB13E43E99CDC4B785EE6402A422 /* Zapp.app */;
+			productType = "com.apple.product-type.application";
 		};
 		NT_9D53AF351F8DAE25354F2391248DFCCA /* Framework_macOS */ = {
 			isa = PBXNativeTarget;
@@ -1278,10 +1348,10 @@
 				SBP_77EF8BC7FC3D693C9C0C1CB51984F3E2 /* Sources */,
 				RBP_85DF5DDC76E0E2A78CAFC9A3EC508232 /* Resources */,
 				CFBP_D7E07645BC437C4DFBB212DFC4F3B09E /* CopyFiles */,
-				SSBP_7F8DED07519BA4B70C40A9A755844874 /* Carthage */,
 				FBP_18D4325BBE506E88E1C742F57AECB0CD /* Frameworks */,
 				CFBP_1C40B0777F31334440F91C2DB34EF404 /* Embed Frameworks */,
 				CFBP_961F46C30E720E886AEFD11D45DDA199 /* Embed Watch Content */,
+				SSBP_7F8DED07519BA4B70C40A9A755844874 /* Carthage */,
 				SSBP_062CBBF024005F57EECA660F9C7B0C7D /* Strip Unused Architectures from Frameworks */,
 				SSBP_376C0662E4E8416C049A50660864798B /* MyScript */,
 			);
@@ -1320,8 +1390,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CL_91682ADED17A2C81A700A67F5D70BA1F /* Build configuration list for PBXNativeTarget "StaticLibrary_ObjC_tvOS" */;
 			buildPhases = (
-				CFBP_CC1EF1963551F7E08925519982C248B9 /* CopyFiles */,
 				SBP_645418A0FA6E3F5727685DE191C6B793 /* Sources */,
+				CFBP_CC1EF1963551F7E08925519982C248B9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1331,6 +1401,21 @@
 			productName = StaticLibrary_ObjC_tvOS;
 			productReference = FR_5A840A83C22F13EBFE051C061E549F95 /* StaticLibrary_ObjC.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		NT_DF709E9AB95C79AF638812C451F55FFF /* CredentialProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL_6F548DF180D78BCABA66DA8818CBDCA5 /* Build configuration list for PBXNativeTarget "CredentialProvider" */;
+			buildPhases = (
+				SBP_A51D72AA35A92210B99C49C89FDAB8D4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CredentialProvider;
+			productName = CredentialProvider;
+			productReference = FR_127AE5925ADDBAC78C914EA54BF82EED /* CredentialProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		NT_FA652FEB38562C3A5C93D5EC7ED09776 /* Framework_tvOS */ = {
 			isa = PBXNativeTarget;
@@ -1391,6 +1476,7 @@
 				NT_B91A6EACD6F5192FECA2E95FD531D0CA /* App_macOS */,
 				NT_38A9FE87056942A2746E0FF025B52A91 /* App_watchOS */,
 				NT_5245AB6D3B3CFBC95AEBADF6E0C593B8 /* App_watchOS Extension */,
+				NT_DF709E9AB95C79AF638812C451F55FFF /* CredentialProvider */,
 				NT_9F72C903B42E1AA3B88F97B917231B15 /* Framework2_iOS */,
 				NT_87DF09E78830E7EB3C00B6134A2D5A5D /* Framework2_macOS */,
 				NT_66B6A18138FD1FB5ECF3FC67B20FF3D3 /* Framework2_tvOS */,
@@ -1407,6 +1493,7 @@
 				NT_2940463C85DCD0660288786BC66F2C4C /* StaticLibrary_Swift */,
 				AT_D40C01B2BAD29EDEA392714DFB69FE8F /* SuperTarget */,
 				NT_23509FD082D1F788E6D6431F509B11AF /* XPC Service */,
+				NT_93FE606170A41972671B10C3316BBBB7 /* Zapp */,
 				NT_6BD068FAAC6AA35C090C48147B94EC6E /* iMessageApp */,
 				NT_6A4FC6EE80FB2821AB96D51C3BC8966E /* iMessageExtension */,
 			);
@@ -1754,6 +1841,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		SBP_91FCAC1C48768C1E910A8737F36F4ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_FF371B13BA83EA89557F0442DC7A91D0 /* AppDelegate.swift in Sources */,
+				BF_F9CF59543DD64257316A705BB9B7AEA3 /* foobar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		SBP_924258C7A9F27B13508604CAF625E0D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1767,6 +1863,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_729EB1C88A5E43B2342099D81B301F4D /* FrameworkFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		SBP_A51D72AA35A92210B99C49C89FDAB8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_61C7489D1EC67ED9D85C6E0758519110 /* CredentialProvider.swift in Sources */,
+				BF_2B393D3BEEC607BEC138A026FF863BBD /* foobar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1909,6 +2014,11 @@
 			target = NT_7D108AE86BED8C9CCF52C2646FA4C5DE /* Framework_iOS */;
 			targetProxy = CIP_A760C88E6F24D3F06081AEBDEB8AE54B /* PBXContainerItemProxy */;
 		};
+		TD_D739CAFD99B030D76EC36458C82BA163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = NT_DF709E9AB95C79AF638812C451F55FFF /* CredentialProvider */;
+			targetProxy = CIP_538C8AE73B5D53B9B47A059D7BFDADF9 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -2048,6 +2158,21 @@
 			};
 			name = "Production Debug";
 		};
+		BC_0545EFC22E666A56DBF402560A0466A7 /* Test Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Zapp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Test Release";
+		};
 		BC_057931652E9069AFF23BA573B6564BE5 /* Production Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2183,6 +2308,21 @@
 				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = "Production Debug";
+		};
+		BC_0F6150E1EC27208DC718EF9A7C04587C /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Zapp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Staging Release";
 		};
 		BC_11CBEB05340DE3C8F396B359A9144039 /* Staging Release */ = {
 			isa = XCBuildConfiguration;
@@ -2397,6 +2537,18 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Test Debug";
+		};
+		BC_20654612967431AF9C3EDF516C5CEB20 /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				INFOPLIST_FILE = Zapp/CredentialProviderInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp.CredentialProvider;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Production Release";
 		};
 		BC_209579D4C144FB697FDD46843485CC6A /* Production Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3302,6 +3454,18 @@
 			};
 			name = "Test Release";
 		};
+		BC_7C337AC4E245E30F152815B265C3FD66 /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				INFOPLIST_FILE = Zapp/CredentialProviderInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp.CredentialProvider;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Staging Release";
+		};
 		BC_7D0687E6BFF4B05D03341A00447B5070 /* Production Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3528,6 +3692,18 @@
 			};
 			name = "Staging Debug";
 		};
+		BC_89ABEE9F0828F1D4DDEEF3BE91362814 /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				INFOPLIST_FILE = Zapp/CredentialProviderInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp.CredentialProvider;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Production Debug";
+		};
 		BC_89C8C1848F2559C9E46F22CB83CDB25A /* Staging Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3618,6 +3794,21 @@
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Staging Release";
+		};
+		BC_92C5D9C279E0ECD4D54B15747FEAE3C1 /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Zapp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Production Release";
 		};
 		BC_9360F45D8F5B06962ACEBF423299C71B /* Staging Release */ = {
 			isa = XCBuildConfiguration;
@@ -3845,6 +4036,18 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Test Debug";
+		};
+		BC_A493392E3C0C78D3A93161CC91B4C937 /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				INFOPLIST_FILE = Zapp/CredentialProviderInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp.CredentialProvider;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Staging Debug";
 		};
 		BC_A61B5D8B6C38C2B4C738A48343FB4CDA /* Staging Release */ = {
 			isa = XCBuildConfiguration;
@@ -4096,6 +4299,18 @@
 			};
 			name = "Staging Debug";
 		};
+		BC_B84D8044758F20CD008A44E04673F735 /* Test Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				INFOPLIST_FILE = Zapp/CredentialProviderInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp.CredentialProvider;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Test Release";
+		};
 		BC_BBA77AE6DA089F82907B6DFC338A6F37 /* Test Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4262,6 +4477,18 @@
 			};
 			name = "Production Debug";
 		};
+		BC_C8C557F92FF8EA591AAFFEF37FAF34FB /* Test Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				INFOPLIST_FILE = Zapp/CredentialProviderInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp.CredentialProvider;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Test Debug";
+		};
 		BC_C9DCD449062A9160795D3701B9D2286E /* Production Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4283,6 +4510,21 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Production Release";
+		};
+		BC_CE9DE256F801AFEED6E3BB3428431603 /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Zapp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Staging Debug";
 		};
 		BC_CECBF50DBAC4771C31C83814C20D07B2 /* Test Release */ = {
 			isa = XCBuildConfiguration;
@@ -4361,6 +4603,36 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Test Debug";
+		};
+		BC_D5B3A40F0FB46B4E394C508AA093DBC0 /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Zapp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Production Debug";
+		};
+		BC_D7FA2E74AE58DA453605F0BD4A88FAFA /* Test Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zapp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Zapp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.Zapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Test Debug";
 		};
@@ -4864,6 +5136,32 @@
 				BC_11CBEB05340DE3C8F396B359A9144039 /* Staging Release */,
 				BC_D4F031939A239C28219748EFD83D30AA /* Test Debug */,
 				BC_80FA279C7B3455A79612ECAB12C9E8F6 /* Test Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		CL_6F548DF180D78BCABA66DA8818CBDCA5 /* Build configuration list for PBXNativeTarget "CredentialProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_89ABEE9F0828F1D4DDEEF3BE91362814 /* Production Debug */,
+				BC_20654612967431AF9C3EDF516C5CEB20 /* Production Release */,
+				BC_A493392E3C0C78D3A93161CC91B4C937 /* Staging Debug */,
+				BC_7C337AC4E245E30F152815B265C3FD66 /* Staging Release */,
+				BC_C8C557F92FF8EA591AAFFEF37FAF34FB /* Test Debug */,
+				BC_B84D8044758F20CD008A44E04673F735 /* Test Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		CL_7045110680DDC043ABB906CF968FB345 /* Build configuration list for PBXNativeTarget "Zapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_D5B3A40F0FB46B4E394C508AA093DBC0 /* Production Debug */,
+				BC_92C5D9C279E0ECD4D54B15747FEAE3C1 /* Production Release */,
+				BC_CE9DE256F801AFEED6E3BB3428431603 /* Staging Debug */,
+				BC_0F6150E1EC27208DC718EF9A7C04587C /* Staging Release */,
+				BC_D7FA2E74AE58DA453605F0BD4A88FAFA /* Test Debug */,
+				BC_0545EFC22E666A56DBF402560A0466A7 /* Test Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "";

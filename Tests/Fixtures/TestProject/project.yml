@@ -206,6 +206,46 @@ targets:
     sources:
       - path: XPC Service
 
+  Zapp:
+    type: application
+    platform: iOS
+    entitlements:
+      path: Zapp/App.entitlements
+      properties:
+        com.apple.developer.authentication-services.autofill-credential-provider: true
+        com.apple.security.application-groups: group.com.app
+    sources:
+      - path: Zapp
+        excludes:
+          - AppInfo.plist
+          - CredentialProvider.swift
+          - CredentialProviderInfo.plist
+    settings:
+      base:
+        CODE_SIGN_ENTITLEMENTS: Zapp/App.entitlements
+    dependencies:
+      - target: CredentialProvider
+    info:
+      path: Zapp/AppInfo.plist
+      properties:
+
+  CredentialProvider:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Zapp/CredentialProvider.swift
+      - path: Zapp/Shared/foobar.swift
+    settings:
+      base:
+        CODE_SIGN_ENTITLEMENTS: Zapp/App.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.project.Zapp.CredentialProvider
+    info:
+      path: Zapp/CredentialProviderInfo.plist
+      properties:
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.authentication-services-credential-provider-ui
+          NSExtensionPrincipalClass: CredentialProviderViewController
+
 schemes:
   Framework:
     build:
